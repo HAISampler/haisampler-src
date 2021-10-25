@@ -1,4 +1,5 @@
 # High Average-Utility Itemset Sampling under Length Constraints
+
 High Utility Itemset extraction algorithms are methods for discovering knowledge in a database where items are weighted. Their usefulness has been widely demonstrated in many real world applications. The traditional algorithms return the set of all patterns having utility above a minimum utility threshold which is difficult to fix, while the top-k algorithms tend to lack of diversity in the produced patterns. We propose an algorithm named HAISampler to sample itemsets where each itemset is drawn with a probability proportional to its average-utility in the database and under length constraints to avoid the long tail problem (rare itemset, very long with items having very low weights). The originality of our method stems from the fact that it combines length constraints with qualitative and quantitative utilities. Experiments show that HAISampler extracts thousands of high average-utility patterns in a few seconds from different databases
 
 ![haisampler](https://user-images.githubusercontent.com/91367129/138692809-b07e72c8-721e-475a-baaf-274d0d482337.PNG)
